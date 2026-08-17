@@ -53,11 +53,11 @@ function Hero() {
             </a>
 
             <a
-              href="/resume/Karne_Siddhartha_Resume.pdf"
-              download
-              className="border-2 border-cyan-400 hover:bg-cyan-500 px-8 py-3 rounded-lg font-bold transition-all duration-300 text-center"
-            >
-              Download Resume
+    href={`${import.meta.env.BASE_URL}resume/Karne_Siddhartha_Resume.pdf`}
+  download
+  className="border-2 border-cyan-400 hover:bg-cyan-500 px-8 py-3 rounded-lg font-bold transition-all duration-300 text-center"
+>
+  Download Resume
             </a>
 
           </div>
